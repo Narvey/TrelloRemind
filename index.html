@@ -11,16 +11,16 @@
 					icon: './images/trello-icon-F6F6F6.svg',
 					text: "Sample Power-Up",
 					// Pass a URL instead of a callback to make a simple link
-					// url: 'https://developers.trello.com/'
-					callback: function(t, board) {
+					url: 'http://nkh.x10host.com/'
+					/*callback: function(t, board) {
 						t.board('name').then(function(board) {
 							console.log("This board is named:" + board.name);
 						});
-					}
+					}*/
 				}
 				];
 			},
-			'card-badges': function(t, card) {
+/*			'card-badges': function(t, card) {
 				if(card.context.card === '563b532e4e998410d0d88e62') {
 					return [{
 						icon: './images/trello-icon-999.svg',
@@ -70,7 +70,7 @@
 					}
 				};
 
-
+*/
 
 				/*
 				Here's a sample with two sections:
@@ -94,7 +94,7 @@
 					}
 				}];
 				*/
-			},
+/*			},
 			'attachment-thumbnail': function(t, attachment) {
 				if(attachment.url == "https://developers.trello.com/") {
 					return {
@@ -166,7 +166,8 @@
 											url: 'auth-popup.html'});	
 										}
 								}*/
-							]
+// */
+/*							]
 						});
 					}
 				}];
@@ -187,6 +188,7 @@
 					desc: 'All New cards have this description'
 				};
 			},
+*/
 			'show-settings': function(t, options) {
 				t.popup({
 					title: "Power-Up Settings",
