@@ -1,19 +1,14 @@
 {
   "name": "TrelloRemind",
-  "description": "Set custom reminders instead of being limited to always 24hours before card due.",
-  "details":"",
+  "description": "Set custom reminders instead of being limited to always 24 hours before card due.",
+  "details":"Set custom reminders instead of being limited to always 24 hours before card due.",
   "icon": {
     "url": "./images/trello-clock-icon.png"
   },
   "author": "Nathan Harvey",
   "capabilities": [
-    "board-buttons",
-    "card-badges",
     "card-detail-badges",
     "card-buttons",
-    "attachment-thumbnail",
-    "attachment-sections",
-    "format-url",
     "show-settings",
     "callback"
   ],
